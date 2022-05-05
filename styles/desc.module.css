@@ -1,0 +1,29 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85rem;
+    height: 18rem;
+    background-color: #f7f4f0;
+}
+.cdiv1{
+    width: 25rem;
+    height: 12rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+.cdiv2{
+    width: 45rem;
+    text-align: left !important;
+    height: 12rem;
+    
+}
+.btn{
+    margin-top: 3rem !important;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.5px solid rgb(48, 47, 47);
+    padding: 1rem 3.3rem !important;
+    color: rgb(161, 156, 156);
+    letter-spacing: 1.25px;
+}

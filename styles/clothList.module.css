@@ -1,0 +1,52 @@
+.ClothList{
+    width: 100%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head p{
+    margin-top: 25px !important;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    margin-top: 25px !important;
+}
+.refine{
+    width: 20rem;
+    border: 1px solid black;
+    padding: 10px 25px !important;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 1.25px;
+}
+.sort{
+    width: 20rem;
+    border: 1px solid black;
+    border-left: none;
+    padding: 10px 25px !important;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 1.25px;
+}
+.cardList{
+    width: 100%;
+    margin-top: 3rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

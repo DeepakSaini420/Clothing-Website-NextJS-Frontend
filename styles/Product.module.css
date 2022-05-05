@@ -1,0 +1,50 @@
+.singleProduct{
+    width: 19rem;
+    height: 35rem;
+}
+.Image{
+    position: relative;
+    cursor: pointer;
+    width: 19rem;
+    height: 28rem;
+}
+.Image::after{
+    content: 'QUICK VIEW';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    padding: 8px !important;
+    background-color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.Image:hover::after{
+    opacity: 1;
+}
+.details .p1{
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.details .p2{
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: rgb(184, 181, 181);
+    margin-top: 5px !important;
+}
+.details .p3{
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 5px !important;
+}

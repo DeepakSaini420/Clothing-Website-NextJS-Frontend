@@ -1,0 +1,10 @@
+
+
+.Images{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+.Images .img{
+    float: left !important;
+}
